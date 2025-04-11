@@ -1,5 +1,6 @@
 import os
-
+import logging
+logging.getLogger('watchdog').setLevel(logging.ERROR)
 from flaskr import create_app
 
 app = create_app()

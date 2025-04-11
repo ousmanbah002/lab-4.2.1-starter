@@ -9,7 +9,7 @@ html {
 
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color:  lightblue;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -17,5 +17,46 @@ h3 {
 p {
     margin-top: 10px;
     margin-left: 15px;
-    background-color: lightblue;
+    background-color:  lightblue
+}
+/* Add this to your style.css file */
+.has-text-success-dark {
+    background-color: #e0f7fa;  /* Light cyan background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Make links in nav more visible */
+.has-text-success-dark a {
+    color: #00796b;  /* Dark teal */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.has-text-success-dark a:hover {
+    background-color: #b2dfdb;
+    border-radius: 4px;
+}
+
+.author-image {
+    width: 150px;
+    height: auto;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.page-link {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: justify;
 }

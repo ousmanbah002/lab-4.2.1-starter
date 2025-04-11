@@ -8,7 +8,9 @@ Wiki Pages
 <h3>Pages contained in this Wiki</h3>
 <ul>
     {% for page in all_pages %}
-    <li><a href="{{ url_for('pages', name=page) }}">{{page}}</a></li>
+    <li><a class="page-link" href="{{ url_for('pages', name=page) }}">{{page}}</a></li>
+    
+   
     {% endfor %}
 </ul>
 
